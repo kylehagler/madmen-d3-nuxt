@@ -140,7 +140,7 @@
             .duration(200)
             .style('opacity', 1);
           tooltip
-            .html('<span class="book-title">' + d.title + '</span>' + '<br/>' + d.author + ' (Pub. ' + d.display_year + ')<br><img style="width: 100px; margin: 10px auto 0; display: block;" src="'+d.image+'">')
+            .html('<span class="book-title">' + d.title + '</span>' + '<br/>' + d.author + ' (Pub. ' + d.display_year + ')<br>')
             .style('left', d3.event.pageX + 20 + 'px')
             .style('top', d3.event.pageY - 28 + 'px');
         })
