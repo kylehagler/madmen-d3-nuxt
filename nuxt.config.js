@@ -7,7 +7,9 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'A data visualization of Mad Men&apos;s literary references' }
+      { hid: 'description', name: 'description', content: "A data visualization of Mad Men's literary references" },
+      { property: 'og:image', content: '/fbcocktails.png' },
+      { name: 'twitter:image', content: '/twittercocktails.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
