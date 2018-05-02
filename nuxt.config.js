@@ -11,9 +11,15 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://use.typekit.net/wyh2rwu.css' }
+      { rel: 'stylesheet', href: 'https://use.typekit.net/wyh2rwu.css' },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: 'favicon.png'
+      }
     ]
   },
+  plugins: [{ src: '~plugins/ga.js', ssr: false }],
   /*
   ** Customize the progress bar color
   */
