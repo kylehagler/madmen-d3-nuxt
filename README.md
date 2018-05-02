@@ -2,9 +2,11 @@
 
 > A data visualization of Mad Men's literary references
 
+[https://madmen.life](https://madmen.life)
+
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install # Or yarn install
 
