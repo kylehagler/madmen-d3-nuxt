@@ -224,7 +224,6 @@ export default {
 	  font-weight: 700;
 	  text-transform: uppercase;
 	  margin: 0 6px 0 0;
-	  word-spacing: -3px;
 	  font-size: 30px;
 	  display: inline-block;
 	  color: #111;
@@ -270,5 +269,19 @@ export default {
 	
 	.season-icon.active {
 		opacity: 1;
+	}
+	
+	@media(max-width: 768px) {
+		.season-icon {
+			width: 50px;
+		}
+		
+		h1 {
+			font-size: 24px;
+		}
+		
+		.season .tooltip {
+			opacity: 0 !important;
+		}
 	}
 </style>

@@ -48,7 +48,7 @@ body {
 }
 
 #chart {
-  width: 1000px;
+  /*width: 1000px;*/
   margin: 0 auto 0;
   padding: 0 0 20px 42px;
   font-family: "acumin-pro";
@@ -73,5 +73,11 @@ body {
   font-weight: 100;
   font-size: 24px;
   margin-top: 0;
+}
+
+@media(max-width: 768px) {
+  .footer p  {
+    font-size: 18px;
+  }
 }
 </style>
